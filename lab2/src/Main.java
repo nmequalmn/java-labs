@@ -10,4 +10,6 @@ public class Main {
         a.addAlly(b);
         a.go();
     }
+
+
 }

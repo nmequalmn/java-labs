@@ -8,8 +8,7 @@ public class Scyther extends Pokemon{
         super(name, level);
         setStats(70, 110, 80, 55, 80, 105);
         setType(Type.BUG, Type.FLYING);
-        addMove(new DoubleHit());
-        addMove(new QuickAttack());
+        setMove(new DoubleHit(), new QuickAttack());
         return;
     }
 }
