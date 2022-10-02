@@ -1,4 +1,5 @@
 package my.pokemons;
+import my.pokemons.attacks.DoubleTeam;
 import my.pokemons.attacks.QuickAttack;
 import ru.ifmo.se.pokemon.*;
 import my.pokemons.attacks.DoubleHit;
@@ -8,7 +9,7 @@ public class Scyther extends Pokemon{
         super(name, level);
         setStats(70, 110, 80, 55, 80, 105);
         setType(Type.BUG, Type.FLYING);
-        setMove(new DoubleHit(), new QuickAttack());
+        setMove(new DoubleHit(), new QuickAttack(), new DoubleTeam());
         return;
     }
 }

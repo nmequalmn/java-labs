@@ -1,12 +1,19 @@
 package my.pokemons.attacks;
 
-import ru.ifmo.se.pokemon.StatusMove;
+import ru.ifmo.se.pokemon.*;
 
 public class DoubleTeam extends StatusMove {
     public DoubleTeam(){
-        super();
+        super(Type.NORMAL, 0,0);
     }
-    applySelfEffects(Pokemon){
 
+    @Override
+    protected String describe(){
+        return " doubleteam ";
+    }
+    @Override
+    protected void applySelfEffects(Pokemon p){
+        super.applySelfEffects(p);
+        Effect usr  = new Effect().stat(Stat.EVASION,1);
     }
 }
