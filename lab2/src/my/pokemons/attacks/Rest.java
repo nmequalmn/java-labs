@@ -17,6 +17,6 @@ public class Rest extends StatusMove {
         super.applySelfEffects(p);
         Effect rest = new Effect().stat(Stat.HP,100);
         p.addEffect(rest);
-        Effect.sleep(p); // TODO: turns=2
+        Effect.sleep(p);
     }
 }
