@@ -18,5 +18,5 @@
 
 Используя класс симуляции боя Battle, создать 2 команды покемонов (каждый покемон должен иметь имя) и запустить бой.
 ### Диаграмма классов реализованной объектной модели
-<img src="diagram_1.png" style="max-width: 50%;">
-<img src="diagram_2.png" style="max-width: 50%;">
+<img src="diagram_1.png" style="width: 500px; heigth: auto;">
+<img src="diagram_2.png" style="width: 700px; heigth: auto;">
