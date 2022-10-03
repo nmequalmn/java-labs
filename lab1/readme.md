@@ -3,6 +3,9 @@
 --- 
 
 ### Задание
+
 <image src="task.png">
+
 ### Результат
+
 <image src="result.png">
